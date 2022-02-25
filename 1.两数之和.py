@@ -1,3 +1,14 @@
+'''
+Author: Boredcui
+Date: 2022-02-25 10:48:07
+LastEditors: Boredcui
+LastEditTime: 2022-02-25 16:45:52
+FilePath: \LeetCode\1.两数之和.py
+Description: 
+
+Copyright (c) 2022 by boredcui, All Rights Reserved. 
+'''
+
 # @lc app=leetcode.cn id=1 lang=python3
 #
 # [1] 两数之和
@@ -14,6 +25,8 @@
 #                     return [i, j]
 
 # Hashtable
+
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hashtable = dict()
